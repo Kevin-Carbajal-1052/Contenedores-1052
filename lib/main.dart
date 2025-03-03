@@ -1,3 +1,5 @@
+import 'dart:convert';
+
 import 'package:flutter/material.dart';
 
 void main() {
@@ -39,7 +41,12 @@ class MiContenedor extends StatelessWidget {
                   height: 120,
                   decoration: BoxDecoration(
                     color: Colors.orange,
-                    borderRadius: BorderRadius.circular(10),
+                    borderRadius: BorderRadius.only(
+                      bottomLeft: Radius.circular(30),
+                      bottomRight: Radius.circular(30),
+                      topLeft: Radius.circular(10),
+                      topRight: Radius.circular(10)
+                    )
                   ),
                 ),
               ],
