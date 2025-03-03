@@ -1,7 +1,8 @@
 # myapp
 
 ## Contenedores
-- ![alt text](image.png)
+- ![image](https://github.com/user-attachments/assets/b6e69657-6338-498d-8a29-9a468e3d05ec)
+
 
 ## Getting Started
 
